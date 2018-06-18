@@ -11,7 +11,7 @@ DESC
 s.homepage         = 'https://github.com/st-small/NetworkLayerSample'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'Stanislav Shiyanovskiy' => 'st-small@rambler.ru' }
-s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.git', :tag => s.version.to_s }
+s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.git', :tag => s.version.to_s, :submodules => true }
 
 s.ios.deployment_target = '11.0'
 
