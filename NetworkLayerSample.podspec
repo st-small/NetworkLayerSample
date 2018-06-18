@@ -15,6 +15,6 @@ s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.g
 
 s.ios.deployment_target = '11.0'
 s.source_files = 'NetworkLayerSample/**/*.swift'
-s.source_files = 'NetworkLayerSample/Networking/**/*.swift'
+s.source_files = 'NetworkLayerSample/NetworkLayerSample/Networking/**/*.swift'
 
 end
