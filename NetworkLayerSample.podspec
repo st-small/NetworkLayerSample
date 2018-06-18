@@ -19,8 +19,8 @@ s.subspec 'Model' do |ss|
 ss.source_files = 'NetworkLayerSample/Model/MovieModel.swift'
 end
 
-s.subspec 'Networking' do |os|
-os.source_files = 'NetworkLayerSample/Networking/**/*.swift'
+s.subspec 'Networking' do |ss|
+ss.source_files = 'NetworkLayerSample/Networking/**/*.swift'
 end
 
 end
