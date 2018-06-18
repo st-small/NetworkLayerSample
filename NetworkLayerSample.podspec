@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'NetworkLayerSample'
-s.version          = '0.1.1'
+s.version          = '0.1.11'
 s.swift_version    = '4.0'
 s.summary          = 'This my first pod. Added NetworkGeneric framework to use it in any project needs to fetch data from net. No joke.'
 
@@ -16,11 +16,11 @@ s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.g
 s.ios.deployment_target = '11.0'
 
 s.subspec 'Model' do |ss|
-ss.source_files = 'NetworkLayerSample/**/*.swift'
+ss.source_files = 'NetworkLayerSample/**/MovieModel.swift'
 end
 
 s.subspec 'Networking' do |ss|
-ss.source_files = 'NetworkLayerSample/Networking/**/*.swift'
+ss.source_files = 'NetworkLayerSample/**/*.swift'
 end
 
 end
