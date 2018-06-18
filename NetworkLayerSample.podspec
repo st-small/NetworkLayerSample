@@ -17,12 +17,10 @@ s.ios.deployment_target = '11.0'
 
 s.subspec 'Model' do |ss|
 ss.source_files = 'NetworkLayerSample/Model/MovieModel.swift'
-ss.frameworks = 'frameworks'
 end
 
-s.subspec 'Networking' do |ss|
-ss.source_files = 'NetworkLayerSample/Networking/**/*.swift'
-ss.frameworks = 'frameworks'
+s.subspec 'Networking' do |os|
+os.source_files = 'NetworkLayerSample/Networking/**/*.swift'
 end
 
 end
