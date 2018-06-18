@@ -19,4 +19,8 @@ s.subspec 'Model' do |ss|
 ss.source_files = 'NetworkLayerSample/Model'
 end
 
+s.subspec 'Networking' do |ss|
+ss.source_files = 'NetworkLayerSample/Networking'
+end
+
 end
