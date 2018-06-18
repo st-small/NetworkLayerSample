@@ -14,7 +14,7 @@ s.author           = { 'Stanislav Shiyanovskiy' => 'st-small@rambler.ru' }
 s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.git', :tag => s.version.to_s }
 
 s.ios.deployment_target = '11.0'
-s.source_files = 'NetworkLayerSample/**/*.swift'
+s.source_files = 'NetworkLayerSample/Model/*.swift'
 s.source_files = 'NetworkLayerSample/NetworkLayerSample/Networking/**/*.swift'
 
 end
