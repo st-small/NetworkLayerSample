@@ -16,11 +16,7 @@ s.source           = { :git => 'https://github.com/st-small/NetworkLayerSample.g
 s.ios.deployment_target = '11.0'
 
 s.subspec 'Model' do |ss|
-ss.source_files = 'NetworkLayerSample/Model/MovieModel.swift'
-end
-
-s.subspec 'Networking' do |ss|
-ss.source_files = 'NetworkLayerSample/Networking/**/*.swift'
+ss.source_files = 'NetworkLayerSample/**/*.swift'
 end
 
 end
